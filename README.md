@@ -1,9 +1,7 @@
 #ERD T_SHOP
 
----
-config:
-  layout: elk
----
+```mermaid
+
 erDiagram
     USER {
         string id PK
@@ -297,3 +295,4 @@ erDiagram
     INVENTORY }o--|| PRODUCT_VARIANT : for_variant
     SHIPPING_ZONE ||--o{ SHIPPING_RATE : has_rates
 # ERD_TSHOP
+```
